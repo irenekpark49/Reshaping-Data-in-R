@@ -50,6 +50,7 @@ normal <- read_sas("C:/Irene Park's Documents/Academics/MS Applied Biostatistics
   mutate(cognition = mean(c(mmse_score, immediate_score, delayed_score, digit_forward), na.rm=TRUE))
 
 
+
 #Reshape Dataset from Long to Wide
 normal_wide <- normal %>%
   pivot_wider(names_from = visit, 

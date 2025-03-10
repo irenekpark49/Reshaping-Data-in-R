@@ -15,7 +15,6 @@ library(naniar)
 ```
 
 
-
 # National Alzheimer Coordination Center (NACC) Dataset
 ```{r}
 normal <- read_sas("C:/Irene Park's Documents/Academics/MS Applied Biostatistics/BS 803 - Statistical Programming for Biostatisticians/Class 1 - Reshaping Data/Homework 1/exercise1.sas7bdat") %>% 
